@@ -1,5 +1,5 @@
 {
-  "name": "twitter-spaces",
+  "name": "@react-agents-plugins/twitter-spaces",
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
