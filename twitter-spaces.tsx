@@ -1,6 +1,5 @@
 import React, { useContext, useRef, useEffect } from 'react';
 import type {
-  TwitterSpacesProps,
   TwitterSpacesArgs,
 } from '../../types';
 import {
@@ -10,6 +9,11 @@ import {
 import {
   AppContext,
 } from '../../context';
+
+export type TwitterSpacesProps = {
+  token: string;
+  url?: string;
+};
 
 export const TwitterSpaces: React.FC<TwitterSpacesProps> = (props: TwitterSpacesProps) => {
   const {
